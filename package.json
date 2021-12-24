@@ -1,0 +1,28 @@
+{
+  "name": "tensura-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node server/server.js",
+    "start:client": "parcel src/index.html -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgermduarte/tensura-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgermduarte/tensura-game/issues"
+  },
+  "homepage": "https://github.com/jorgermduarte/tensura-game#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "kaboom": "^2000.1.8"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
