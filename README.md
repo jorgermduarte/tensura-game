@@ -7,4 +7,4 @@
 
 ## Image preview 
 
-![Preview](https://github.com/jorgermduarte/tensura-game/blob/main/image_preview.png)
+![Preview](https://raw.githubusercontent.com/jorgermduarte/tensura-game/main/game_preview.png)
