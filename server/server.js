@@ -11,4 +11,4 @@ app.get('*', function (req, res, next) {
 
 app.use('/static',  express.static(path.join(__dirname, 'wwwroot')))
 
-app.listen(process.env.SERVER_PORT, () => { console.log(`server started at port: ${process.env.SERVER_PORT}`)})
+app.listen(process.env.SERVER_PORT || 3000, () => { console.log(`server started at port: ${process.env.SERVER_PORT}`)})
