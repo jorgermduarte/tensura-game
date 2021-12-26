@@ -6,7 +6,7 @@
 - npm run start:client
 
 ## Info
-- The game will run on port 8000, and the server will run on 3000.
+- The game client will run on port 8000, and the server will run on 3000.
 
 ## Features 
 - Character sprite with frame movements.
